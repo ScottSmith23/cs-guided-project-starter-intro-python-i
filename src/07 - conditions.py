@@ -53,11 +53,11 @@ YOU DO
 """
 # Modify the supplied code so that all of the statements evaluate to True
 # change this code
-number = 10
-second_number = 10
-first_array = []
-second_array = [1,2,3]
-
+number = 16
+second_number = 0
+first_array = [1,2,3]
+second_array = [1,2]
+print("START")
 print(bool(number > 15))
 
 print(bool(first_array))

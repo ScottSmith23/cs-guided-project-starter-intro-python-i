@@ -48,3 +48,11 @@ YOU DO
 # create a list called `combined` that
 # contains 10 `x`s and 10 `y`s by concatenating
 # `x_list` and `y_list`
+
+x, y = 1, 2
+x_list = [x] * 10
+print(x_list)
+y_list = [y] * 10
+print(y_list)
+combined = x_list + y_list
+print(combined)
